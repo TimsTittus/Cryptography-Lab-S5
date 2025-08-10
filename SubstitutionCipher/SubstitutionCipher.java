@@ -1,7 +1,7 @@
-package CeaserCipher;
+package SubstitutionCipher;
 import java.util.Scanner;
 
-public class CeaserCipher {
+public class SubstitutionCipher {
 
     public static String encrypt(String text, int shift) {
         StringBuilder result = new StringBuilder();
@@ -25,8 +25,9 @@ public class CeaserCipher {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the text: ");
         String text = sc.nextLine();
+        System.out.print("Enter the shift value: ");
+        int shift = Integer.parseInt(sc.nextLine());
 
-        int shift = 3;
         String encrypted = encrypt(text, shift);
         String decrypted = decrypt(encrypted, shift);
 
