@@ -27,7 +27,7 @@ public class SimpleDES {
             Cipher cipher = Cipher.getInstance("DES/ECB/PKCS5Padding");
 
             cipher.init(Cipher.ENCRYPT_MODE, secretKey);
-            byte[] encryptedBytes = cipher.doFinal(originalText.getBytes());
+            byte[] encryptedBytes = cipher.doFinal(originalText.getBytes());    
             String encryptedText = Base64.getEncoder().encodeToString(encryptedBytes);
             
             System.out.println("Original Text: " + originalText);
