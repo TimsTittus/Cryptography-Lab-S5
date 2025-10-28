@@ -11,7 +11,7 @@ A concise collection of lab implementations for basic cryptography algorithms. S
 - [Hash Function/](Hash%20Function/) — hash function example ([hash.java](Hash%20Function/hash.java))
 - [HillCipher/](HillCipher/) — Hill cipher ([hillcipher.c](HillCipher/hillcipher.c), [hillcipher.java](HillCipher/hillcipher.java))
 - [RC4/](RC4/) — RC4 example ([SimpleRC4.java](RC4/SimpleRC4.java))
-- [RSA/](RSA/) — RSA example ([RSA.java](RSA/RSA.java))
+- [RSA/](RSA/) — RSA examples ([RSA.java](RSA/RSA.java), [simpleRSA.java](RSA/simpleRSA.java))
 - [SubstitutionCipher/](SubstitutionCipher/) — substitution cipher ([SubstitutionCipher.java](SubstitutionCipher/SubstitutionCipher.java))
 - [XOR operations/](XOR%20operations/) — XOR examples in C ([simplifiedXOR.c](XOR%20operations/simplifiedXOR.c), [XOR.c](XOR%20operations/XOR.c))
 
